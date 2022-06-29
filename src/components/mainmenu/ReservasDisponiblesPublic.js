@@ -18,7 +18,7 @@ function Main_ReservasDisponiblesPublic(){
       <Tab.Container id="list-group-tabs" fluid="md">
             <Row>
               <><Col sm={3}>
-                <Card className='card'>
+                <Card className='card a'>
                   <Card.Img variant="top" src="https://dummyimage.com/800X480/000000/FFFFFF" />
                   <Card.Body className='body'>
                     <Card.Title className="name">Bienvenido, <strong>Don Ramon</strong></Card.Title>
