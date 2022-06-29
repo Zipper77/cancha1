@@ -1,0 +1,27 @@
+.name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 200%;
+}
+
+.listItem {
+    background-color: #002E06;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.body {
+    margin-bottom: 110px;
+}
+
+.card {
+    max-width: max-content;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+}
+
+.display {  
+    align-items: center;
+}
