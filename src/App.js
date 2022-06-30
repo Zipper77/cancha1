@@ -18,6 +18,8 @@ from 'react-router-dom';
 import React from 'react';
 import AdminMenu_Index from './components/adminmenu/adminmenu_index';
 import ClientMenu_Index from './components/clientmenu/clientmenu_index';
+import Client_Reservate from './components/clientmenu/client_reservate';
+
 function App() {
   return (
     <div className='App'>
@@ -33,6 +35,7 @@ function App() {
           <Route path="login" element={<Main_IniciarSesion />} />
           <Route path="adminmenu" element={<AdminMenu_Index />} />
           <Route path="clientmenu" element={<ClientMenu_Index />} />
+          <Route path="clientmenu/reservate" element={<Client_Reservate />} />
         </Routes>
         <Footer />
     </Router>

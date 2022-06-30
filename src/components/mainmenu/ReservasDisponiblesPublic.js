@@ -1,17 +1,14 @@
 import React from 'react';
 import './ReservasDisponiblesPublic.css';
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Stack from 'react-bootstrap/Stack';
 import Main_CrearCuenta from './CrearCuenta';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Tab from 'react-bootstrap/Tab';
 import Main_IniciarSesion from './IniciarSesion';
 import Main_ListaCanchas from './ListaCanchas';
-//import Sonnet from '../../components/Sonnet';
+import Client_Reservate from '../clientmenu/client_reservate'
 
 function Main_ReservasDisponiblesPublic(){
     return (
@@ -51,7 +48,7 @@ function Main_ReservasDisponiblesPublic(){
                     <Main_ListaCanchas />
                   </Tab.Pane>
                   <Tab.Pane eventKey="#link4">
-
+                    <Client_Reservate />
                   </Tab.Pane>
                 </Tab.Content>
               </Col></>

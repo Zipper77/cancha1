@@ -1,12 +1,9 @@
-import {React, useState} from 'react';
+import React from 'react';
 import './CrearCuenta.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
-import {db} from './../../firebase';
-import {setDoc, doc, Timestamp} from 'firebase/firestore';
 import Stack from 'react-bootstrap/Stack';
 import Nav from 'react-bootstrap/Nav';
 
@@ -42,7 +39,7 @@ function Main_CrearCuenta(){
       <Row className='containerInfo'>
         <Col className='containerBox'>
           <h1 class="black"><b>Cancha Utilizada</b></h1>
-          <image src={require("https://dummyimage.com/800X480/000000/FFFFFF")}/>
+          <image src="https://dummyimage.com/800x480/000000/ffffff"/>
           <h3 class="black">Cancha N° X</h3>
           <h2 class="black">★★★★☆</h2>
         </Col>

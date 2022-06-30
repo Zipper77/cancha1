@@ -3,7 +3,6 @@ import './IniciarSesion.css';
 import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/esm/Form'
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
 
 function Main_IniciarSesion(){
@@ -11,7 +10,7 @@ function Main_IniciarSesion(){
     <><Container fluid="sm">
       <Row>
         <h1 className='titulo'>Editar Perfil</h1>
-        <image src={require("https://dummyimage.com/800X480/000000/FFFFFF")} />
+        <image src="https://dummyimage.com/800x480/000000/ffffff" />
       </Row>
       <Row className='fillDatos'>
         <Form>

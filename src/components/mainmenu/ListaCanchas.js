@@ -1,6 +1,5 @@
 import React from 'react';
 import './ListaCanchas.css';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -39,7 +38,7 @@ function Main_ListaCanchas(){
       <Row className='containerInfo'>
         <Col className='containerBox'>
           <h1 class="black"><b>Cancha Utilizada</b></h1>
-          <image src={require("https://dummyimage.com/800X480/000000/FFFFFF")}/>
+          <image src="https://dummyimage.com/800x480/000000/ffffff"/>
           <h3 class="black">Cancha N° X</h3>
           <h2 class="black">★★★★☆</h2>
         </Col>

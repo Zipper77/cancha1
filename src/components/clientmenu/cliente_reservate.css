@@ -1,0 +1,27 @@
+.table {
+    background-color: white;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+    background-color: #002E06;
+    width: 200px;
+    font-size: large;
+    border: 1px solid black;
+}
+
+.topContainers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.c{
+    background-color: antiquewhite;
+}
